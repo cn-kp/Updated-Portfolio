@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+
+    <div class="off-canvas-wrapper">
+        <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+  
+          <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
+            <div id="about-me" class="row column">
+              <br>
+              <img class="thumbnail" src="./assets/images/profile-pic.jpg">
+              <h5>Kevin Peng</h5>
+              <p>Hi people, I am a junior stack developer and civil engineer hoping to hone my skills and meet new people</p>
+            </div>
+          </div>
+
+          <div class="off-canvas-content" data-off-canvas-content>
+            <div class="title-bar hide-for-large">
+              <div class="title-bar-left">
+                <button class="menu-icon" type="button" data-open="my-info"></button>
+                <span class="title-bar-title">Kevin Peng</span>
+              </div>
+            </div>
+
+            <div id="callout-background" class="callout">
+              <div class="row column">
+                <div class="top-bar" id="nav-background">
+                      <ul class="menu">
+                        <li class="menu-text">Nav</li>
+                        <li><a href="#about-me">About Me</a></li>
+                        <li><a href="#my-work">My Work</a></li>
+                        <li><a href="#my-contact">My Contacts</a></li>
+                        <li><a href="#">Resume</a></li>
+                      </ul>
+                </div>
+                    <h1>Hello! Welcome to my Portfolio</h1>
+              </div>
+            </div>
+
+            <div id="my-work" class="row small-up-2 medium-up-3 large-up-4">
+                
+                <div class="title-bar" id="work-title">
+                      <span class="title-bar-title">My Work</span>
+                </div>
+
+                <div class="card column" style="width: 300px;">
+                  <div class="card-divider">
+                    Food Recipe Finder
+                  </div>
+                  <img src="./assets/images/recipe-relish.gif">
+                  <div class="card-section">
+                    <p>This was a group project I was involved in and super proud of end product</p>
+                    <ul class="menu">
+                      <li><a href="https://github.com/cn-kp/recipe-app">Github Repo</a></li>
+                      <li><a href="https://cn-kp.github.io/recipe-app/">Deploy</a></li>
+                    </ul>
+                  </div>
+                </div>
+                
+                <div class="card column" style="width: 300px;">
+                  <div class="card-divider">
+                    Day Planner
+                  </div>
+                  <img src="./assets/images/day-planner.gif">
+                  <div class="card-section">
+                    <p>A simple day planner to aid user's with their schedule</p>
+                    <ul class="menu">
+                      <li><a href="https://github.com/cn-kp/homework5-day-scheduler">Github Repo</a></li>
+                      <li><a href="https://cn-kp.github.io/homework5-day-scheduler/">Deploy</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="card column" style="width: 300px;">
+                  <div class="card-divider">
+                    Password Generator
+                  </div>
+                  <img src="./assets/images/password-generator.gif">
+                  <div class="card-section">
+                    <p>A simple password generator, using alerts for filters</p>
+                    <ul class="menu">
+                      <li><a href="https://github.com/cn-kp/homework-week3-passwordGenerator">Github Repo</a></li>
+                      <li><a href="https://cn-kp.github.io/homework-week3-passwordGenerator/">Deploy</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="card column" style="width: 300px;">
+                  <div class="card-divider">
+                    Weather Dashboard
+                  </div>
+                  <img src="./assets/images/weather-dashboard.gif">
+                  <div class="card-section">
+                    <p>A rushed weather dashboard, needs polishing up</p>
+                    <ul class="menu">
+                      <li><a href="https://github.com/cn-kp/homework6-weather-dashboard">Github Repo</a></li>
+                      <li><a href="https://cn-kp.github.io/homework6-weather-dashboard/">Deploy</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+              <!-- <div class="column">
+                <img class="thumbnail" src="https://placehold.it/550x550">
+                <h5>My Site</h5>
+              </div> -->
+            </div>
+  
+            <hr>
+  
+            <div id="my-contact" class="row">
+              <div class="medium-6 columns">
+                <h3>Contact Me</h3>
+                <p>Please feel to leave a message or contact me directly using one of the social medias</p>
+                <ul class="menu">
+                  <li><a href="#">Dribbble</a></li>
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">Yo</a></li>
+                </ul>
+              </div>
+              <div class="medium-6 columns">
+                <label>Name
+                  <input type="text" placeholder="Name">
+                </label>
+                <label>Email
+                  <input type="text" placeholder="Email">
+                </label>
+                <label>
+                  Message
+                  <textarea placeholder="Send me a Message"></textarea>
+                </label>
+                <input type="submit" class="button expanded" value="Submit">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+</html>

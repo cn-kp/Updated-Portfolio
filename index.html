@@ -33,30 +33,30 @@
 
             <div id="callout-background" class="callout">
               <div class="row column">
-                <div class="top-bar" id="nav-background">
-                      <ul class="menu">
+                <div class="top-bar align-right" id="nav-background">
+                      <ul class="menu" id="navbar-background">
                         <li class="menu-text">Nav</li>
                         <li><a href="#about-me">About Me</a></li>
                         <li><a href="#my-work">My Work</a></li>
                         <li><a href="#my-contact">My Contacts</a></li>
-                        <li><a href="#">Resume</a></li>
+                        <li><a href="#my-resume">Resume</a></li>
                       </ul>
                 </div>
                     <h1>Hello! Welcome to my Portfolio</h1>
               </div>
             </div>
 
-            <div id="my-work" class="row small-up-2 medium-up-3 large-up-4">
+            <div id="my-work" class="expanded row small-up-2 medium-up-3 large-up-4">
                 
                 <div class="title-bar" id="work-title">
                       <span class="title-bar-title">My Work</span>
                 </div>
-
+               <div class="grid-x grid-padding-x" id="work-container">
                 <div class="card column" style="width: 300px;">
                   <div class="card-divider">
                     Food Recipe Finder
                   </div>
-                  <img src="./assets/images/recipe-relish.gif">
+                  <img src="./assets/images/recipe-relish2.gif">
                   <div class="card-section">
                     <p>This was a group project I was involved in and super proud of end product</p>
                     <ul class="menu">
@@ -112,32 +112,39 @@
                 <img class="thumbnail" src="https://placehold.it/550x550">
                 <h5>My Site</h5>
               </div> -->
+            </div> 
             </div>
   
             <hr>
   
-            <div id="my-contact" class="row">
+            <div id="my-contact" class="expanded row">
               <div class="medium-6 columns">
                 <h3>Contact Me</h3>
                 <p>Please feel to leave a message or contact me directly using one of the social medias</p>
                 <ul class="menu">
-                  <li><a href="#">Dribbble</a></li>
-                  <li><a href="#">Facebook</a></li>
-                  <li><a href="#">Yo</a></li>
+                  <li><a href="https://www.facebook.com/kevinpeng123">Facebook</a></li>
+                  <li><a href="https://github.com/cn-kp">Github</a></li>
+                  <li><a href="https://www.linkedin.com/in/kevin-peng-3299b41a2/">LinkedIn</a></li>
+                  <li><a href="mailto:kpeng.work@gmail.com?subject = Feedback&body = Message">
+                    Send Email</a></li>
                 </ul>
+                <div>
+                  <h4 id="my-resume">My Resume</h4>
+                  <li><a href="./assets/documents/developed-resume.pdf">Resume</a></li>
+                </div>
               </div>
               <div class="medium-6 columns">
                 <label>Name
-                  <input type="text" placeholder="Name">
+                  <input type="text" id="contact-name" placeholder="Name">
                 </label>
                 <label>Email
-                  <input type="text" placeholder="Email">
+                  <input type="text" id="contact-email" placeholder="Email">
                 </label>
                 <label>
                   Message
-                  <textarea placeholder="Send me a Message"></textarea>
+                  <textarea id="contact-message" placeholder="Send me a Message"></textarea>
                 </label>
-                <input type="submit" class="button expanded" value="Submit">
+                <input type="submit" id="submit-button" class="button expanded" value="Submit">
               </div>
             </div>
           </div>
@@ -146,7 +153,7 @@
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-    <script>
+    <script src="./assets/script.js">
         $(document).foundation();
     </script>
 </body>

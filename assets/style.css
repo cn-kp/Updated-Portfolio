@@ -1,15 +1,22 @@
 #callout-background {
-    /* background: rgb(212, 168, 205); */
+    background-image: linear-gradient(to right, #81D2C7 , yellow);
 }
 
 #nav-background{
-    background: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, #81D2C7 , yellow);
     margin-bottom: 10px;
 }
 #nav-background > *{
-    background: rgb(255, 255, 255);
+    background-image: linear-gradient(to right,yellow, #81D2C7);
 }
 
 #work-title{
     margin-bottom: 10px;
+}
+
+#work-container{
+
+}
+#my-contact{
+    background-image: linear-gradient(to right,#a8e063,#56ab2f);
 }

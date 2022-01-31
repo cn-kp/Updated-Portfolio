@@ -30,7 +30,7 @@ The user also has the option to send me a message directly on the site. This is 
 To install this program all you need is a text editior. I would recommend Visual Studio Code. then download or clone the repository of the program
 
 ## Demonstration
-![My Portfolio](./assets/images/weatherdashboard.gif)
+![My Portfolio](./assets/images/my-portfolio.gif)
 
 ## Credits
 

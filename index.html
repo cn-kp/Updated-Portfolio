@@ -7,27 +7,30 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
     <link rel="stylesheet" href="./assets/style.css">
+    <script src="https://kit.fontawesome.com/4f24a0e7d7.js" crossorigin="anonymous"></script>
     <title>My Portfolio</title>
 </head>
 <body>
 
-    <div class="off-canvas-wrapper">
-        <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+  <div class="off-canvas-wrapper">
+    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
   
-          <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
-            <div id="about-me" class="row column">
-              <br>
-              <img class="thumbnail" src="./assets/images/profile-pic.jpg">
-              <h5>Kevin Peng</h5>
-              <p>Hi people, I am a junior stack developer and civil engineer hoping to hone my skills and meet new people</p>
-            </div>
-          </div>
+      <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
+        <div id="about-me" class="row column">
+          <br>
+          <img class="thumbnail" src="./assets/images/profile-pic.jpg">
+          <h5>Kevin Peng</h5>
+          <i class="fa-solid fa-hand-wave"></i>
+          <hr>
+          <p>I’m Kevin, a full Stack Web developer with a leveraging background in Civil Engineering and Commerce to provide unique perspectives on websites and software platforms. Studying to earn a certificate in Full Stack Web Development from the University of Sydney Coding Boot Camp and current student at UNSW for Civil Engineering and Commerce.</p>
+        </div>
+      </div>
 
-          <div class="off-canvas-content" data-off-canvas-content>
-            <div class="title-bar hide-for-large">
-              <div class="title-bar-left">
-                <button class="menu-icon" type="button" data-open="my-info"></button>
-                <span class="title-bar-title">Kevin Peng</span>
+      <div class="off-canvas-content" data-off-canvas-content>
+        <div class="title-bar hide-for-large">
+          <div class="title-bar-left">
+            <button class="menu-icon" type="button" data-open="my-info"></button>
+            <span class="title-bar-title">Kevin Peng</span>
               </div>
             </div>
 
@@ -47,10 +50,25 @@
             </div>
 
             <div id="my-work" class="expanded row small-up-2 medium-up-3 large-up-4">
-                
-                <div class="title-bar" id="work-title">
-                      <span class="title-bar-title">My Work</span>
+              <div class="title-bar" id="work-title">
+                <span class="title-bar-title">My Work</span>
+              </div>
+
+              <div class="grid-x grid-padding-x" id="work-container">
+                <div class="card column" style="width: 300px;">
+                  <div class="card-divider">
+                    Star Wars Themed E-Commerce Site
+                  </div>
+                <img src="./assets/images/Mos Espa.gif">
+                <div class="card-section">
+                  <p>This was a group project utilising the Full Stack Development and following the MVC structure. The backend is managed by Express nodes, and the frontend uses handlebars.</p>
+                  <ul class="menu">
+                    <li><a href="https://github.com/cn-kp/Ecommerce-fullstack">Github Repo</a></li>
+                    <li><a href="https://mosespamarketplace.herokuapp.com/">Heroku Deploy</a></li>
+                  </ul>
                 </div>
+              </div>
+
                <div class="grid-x grid-padding-x" id="work-container">
                 <div class="card column" style="width: 300px;">
                   <div class="card-divider">
@@ -108,10 +126,6 @@
                   </div>
                 </div>
 
-              <!-- <div class="column">
-                <img class="thumbnail" src="https://placehold.it/550x550">
-                <h5>My Site</h5>
-              </div> -->
             </div> 
             </div>
   
@@ -131,7 +145,7 @@
                 <hr class="separator">
                 <div>
                   <h4 id="my-resume">My Resume</h4>
-                  <li><a href="./assets/documents/developed-resume.pdf">Resume</a></li>
+                  <li><a href="./assets/documents/Kevin's Programming Resume.pdf">Resume</a></li>
                 </div>
               </div>
               <div class="medium-6 columns">

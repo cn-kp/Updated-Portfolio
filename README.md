@@ -2,7 +2,7 @@
 
 ## Deployment
 
-- [GitHub Repository](https://github.com/cn-kp/homework7-New-Portfolio)
+- [GitHub Repository](https://github.com/cn-kp/Updated-Portfolio)
 - [GitHub Deployed Link](https://cn-kp.github.io/Updated-Portfolio/)
 
 ## Description

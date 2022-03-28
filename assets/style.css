@@ -24,3 +24,11 @@
 .separator{
     border-top: 1px solid rgb(0, 0, 0);
 }
+
+.column{
+    max-width: 400px;
+}
+/* .EcomDemo{
+    max-width: 400px;
+    max-height: 300px;
+} */

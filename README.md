@@ -7,7 +7,7 @@
 
 ## Description
 
-This application is created to showcase some of my work for potential employers. The page is also fitted with my contact details and links to some of my external profiles. 
+This application is created to showcase some of my web development work for potential employers. The page is also fitted with my contact details and links to some of my external profiles. 
 
 The user also has the option to send me a message directly on the site. This is temporarily stored in local storage for now, but will later be distributed using server side API. 
 
@@ -17,12 +17,14 @@ The user also has the option to send me a message directly on the site. This is 
 - Navigation Bar
 - Local Hstory (temporily for storaging messages)
 - Display Elements
+- External Links
 
 ## Third Party Libraries
 
 - Foundation CSS
 - JavaScript
 - CSS 
+- HTML
 - Foundation JS
 
 ## Installation
